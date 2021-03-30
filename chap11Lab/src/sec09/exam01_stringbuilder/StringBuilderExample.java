@@ -25,7 +25,7 @@ public class StringBuilderExample {
 		
 		String result = sb.toString();
 		System.out.println(result);		
-	}
+	}// ¼öÁ¤
 	
 	
 }
