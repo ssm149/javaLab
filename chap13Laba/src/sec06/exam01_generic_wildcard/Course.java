@@ -17,6 +17,6 @@ public class Course<T> {
 				students[i] = t;
 				break;
 			}
-		}
+		}    
 	}  
 }
