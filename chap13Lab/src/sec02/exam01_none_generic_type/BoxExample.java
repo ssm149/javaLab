@@ -10,5 +10,5 @@ public class BoxExample {
 		box.set(new Apple());
 		Apple apple = (Apple) box.get();
 	}
-//
+
 }
