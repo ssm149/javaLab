@@ -2,6 +2,10 @@ package sec02.exam01_createthread;
 
 import java.awt.Toolkit;
 
+<<<<<<< HEAD
+=======
+// Runnable 인터페이스를 구현 클래스
+>>>>>>> refs/remotes/origin/master
 public class BeepTask implements Runnable {	
 	public void run() {		
 		Toolkit toolkit = Toolkit.getDefaultToolkit();	
