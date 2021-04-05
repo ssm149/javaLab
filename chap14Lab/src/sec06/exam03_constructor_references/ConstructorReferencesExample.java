@@ -10,5 +10,7 @@ public class ConstructorReferencesExample {
 		
 		BiFunction<String, String, Member> function2 = Member :: new;
 		Member member2 = function2.apply("Ω≈√µªÁ", "angel");
+		
+		
 	}
 }
