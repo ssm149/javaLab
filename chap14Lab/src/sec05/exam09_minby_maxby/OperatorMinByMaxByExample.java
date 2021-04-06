@@ -9,10 +9,13 @@ public class OperatorMinByMaxByExample {
 		
 		binaryOperator = BinaryOperator.minBy((f1,f2)->Integer.compare(f1.price, f2.price));
 		fruit = binaryOperator.apply(new Fruit("딸기", 6000), new Fruit("수박", 10000));
-		System.out.println(fruit.name);
+		System.out.println(fruit.name);   //minBy 작은 값 -> 딸기
+		System.out.println(fruit.price);
+		System.out.println();
 		
 		binaryOperator = BinaryOperator.maxBy((f1,f2)->Integer.compare(f1.price, f2.price));
 		fruit = binaryOperator.apply(new Fruit("딸기", 6000), new Fruit("수박", 10000));
-		System.out.println(fruit.name);
+		System.out.println(fruit.name);   // maxBy 큰 값 -> 수박
+		System.out.println(fruit.price);
 	}
 }
