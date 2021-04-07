@@ -20,6 +20,7 @@ public class ArrayListExample {
 		System.out.println("2: " + skill);
 		System.out.println();
 
+		
 		for(int i=0; i<list.size(); i++) {
 			String str = list.get(i);
 			System.out.println(i + ":" + str);
