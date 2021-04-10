@@ -19,7 +19,7 @@ public class ExitGame {
 
 			if (sum >= 100)
 				break;
-			
+
 		}
 		System.out.println("프로그램 종료");
 	}
