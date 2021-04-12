@@ -1,4 +1,4 @@
-package sec03.exam03_for;
+package sec03.exam01_for;
 
 public class ForSumFrom1To10Example {
 
