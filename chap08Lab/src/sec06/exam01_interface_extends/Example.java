@@ -1,5 +1,5 @@
 package sec06.exam01_interface_extends;
-
+//실행클래스
 public class Example {
 	public static void main(String[] args) {
 		ImplementationC impl = new ImplementationC();

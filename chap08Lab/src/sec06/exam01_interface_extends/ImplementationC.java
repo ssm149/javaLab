@@ -1,5 +1,5 @@
 package sec06.exam01_interface_extends;
-
+//구현클래스
 public class ImplementationC implements InterfaceC {
 	public void methodA() {
 		System.out.println("ImplementationC-methodA() 실행");
