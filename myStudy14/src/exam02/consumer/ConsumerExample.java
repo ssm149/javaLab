@@ -1,4 +1,4 @@
-package consumer;
+package exam02.consumer;
 
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
